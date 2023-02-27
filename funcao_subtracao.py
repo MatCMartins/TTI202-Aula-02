@@ -1,2 +1,2 @@
-def Subtracao(a, b):
+def subtracao(a, b):
     return a - b
