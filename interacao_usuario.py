@@ -2,7 +2,8 @@ import funcao_soma
 import funcao_subtracao
 import funcao_multiplicacao
 import funcao_divisao
-
+import funcao_potenciacao
+import funcao_radiciacao
 
 print("Digite abaixo a operação que deseja realizar")
 print("1 - Soma")
@@ -11,8 +12,7 @@ print("3 - Multiplicação")
 print("4 - Divisão")
 print("5 - Potenciação")
 print("6 - Radiciação")
-print("7 - Fatorial")
-print("8 - Sair")
+print("7 - Sair")
 condicao = False
 while condicao == False:
     opcao = int(input("Digite a opção desejada: "))
@@ -32,7 +32,15 @@ while condicao == False:
         x = int(input("Digite o primeiro valor: "))
         y = int(input("Digite o segundo valor: "))
         print("O resultado da divisão é: ", funcao_divisao.divisao(x,y))
-    else:
+    elif opcao == 5:
+        x = int(input("Digite o primeiro valor: "))
+        y = int(input("Digite o segundo valor: "))
+        print("O resultado da potenciação é: ", funcao_potenciacao.potenciacao(x,y))
+    elif opcao == 6:
+        x = int(input("Digite o primeiro valor: "))
+        y = int(input("Digite o segundo valor: "))
+        print("O resultado da radiciação é: ", funcao_radiciacao.radiciacao(x,y))
+    elif opcao == 7:
         condicao = True
-
+        print("Obrigado por utilizar o programa!")
         
