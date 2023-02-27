@@ -2,9 +2,9 @@
 Repositório da Aula 02 do curso de Desenvolvimento Ágil do Instituto Mauá de Tecnologia - 27/02/2023
 
 Alunos: 
-Mateus Capaldo Martins
-Othavio Carvalho Losovoi
-Raul Monteiro de Sousa Carvalho
+# Mateus Capaldo Martins
+# Othavio Carvalho Losovoi
+# Raul Monteiro de Sousa Carvalho
 
 Abaixo segue o nosso Kanban (em imagens):
 
